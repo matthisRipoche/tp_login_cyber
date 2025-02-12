@@ -1,3 +1,10 @@
+<?php
+
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -31,13 +38,14 @@
                             <label for="confirm-password" class="form-label">Confirmer le mot de passe</label>
                             <input type="password" name="confirm-password" id="confirm-password" class="form-control" required>
                         </div>
-                        <button type="submit" class="btn btn-primary w-100">S'inscrire</button>
+                        <button id="submit" type="submit" class="btn btn-primary w-100">S'inscrire</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
